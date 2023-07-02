@@ -6,6 +6,7 @@
 ### Tel: +375(29)828-43-86
 ### GitHub: [Nicht0](https://github.com/Nicht0)
 ### Discord: Nicht0
+
 ***
 ### After working at the factory, I decided that it wasn't mine. Therefore, I chose for myself an attractive direction in programming: frontend. I watched educational videos, read articles and books for beginners until I met a graduate of your school. And now I'm here.
 
