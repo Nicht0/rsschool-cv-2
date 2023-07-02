@@ -17,6 +17,14 @@
 * Adobe Photoshop,
 * Figma.
 ***
+### Codewars
+```
+function filter_list(l) {
+    return l.filter(fn => typeof fn === 'number');
+}
+
+console.log(filter_list([1, 'a', 'b', 0, 15]));
+```
 ***
 ### [CV](https://nicht0.github.io/rsschool-cv/cv) is my first project.
 ***
