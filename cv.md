@@ -10,23 +10,27 @@
 
 
 ### I want to acquire practical and social skills, as well as help others, thereby consolidating my knowledge.
+
 ***
 * HTML5,
 * CSS3,
 * JS Basic,
 * Adobe Photoshop,
 * Figma.
+
 ***
 ### Codewars
+
 ```
-function filter_list(l) {
+# function filter_list(l) {
     return l.filter(fn => typeof fn === 'number');
 }
 
 console.log(filter_list([1, 'a', 'b', 0, 15]));
 ```
+
 ***
 ### [CV](https://nicht0.github.io/rsschool-cv/cv) is my first project.
-***
+
 ***
 ### English b-1, learn English language at school.
