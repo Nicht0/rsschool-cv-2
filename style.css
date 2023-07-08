@@ -24,7 +24,6 @@ h2 {
     font-family: Lora;
     font-size: 36px;
     font-weight: 700;
-    position: absolute;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -65,11 +64,12 @@ h2.left-personal {
 }
 
 .column {
+    float: left;
+    margin-left: 22px;
     background-color: #B39E9F;
-    width: 100%;
+    width: 417px;
     height: 421px;
     z-index: 3;
-    position: absolute;
     top: -421px;
     display: flex;
     justify-content: center;
@@ -85,14 +85,14 @@ h2.left-personal {
 }
 
 .header-name {
-    margin: 99px 166px 134px 506px;
+    float: right;
+    margin: 99px 166px 134px 67px;
     width: 518px;
     height: 188px;
     color: #FFF;
     font-family: Roboto;
     font-size: 64px;
     font-weight: 700;
-    position: absolute;
     text-transform: uppercase;
 }
 
@@ -108,29 +108,107 @@ h2.left-personal {
     text-transform: uppercase;
 }
 
-.about-me {
-    max-width: 417px;
+
+.container {
+    width: 100%;
     height: 1125px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 36.9%;
+    height: 1125px;
+    display: flex;
+    justify-content: left;
+}
+
+.main-column {
+    margin-left: 22px;
     background-color: #B39E9F;
-    margin: 0 67px 0 22px;
-    position: relative;
-    z-index: 1;
+    width: 417px;
+    padding: 0 49px
 }
 
-.right-personal {
-    margin: 64px 36px 0 492px;
-    width: 666px;
-    height: 836px;
+.main-column h2 {
+    margin-top: 64px;
+    margin-bottom: 0;
+    width: 223px;
+    height: 50px;
+}
+
+.main-column .left-contacts{
+    display: flex;
+    width: 271px;
+    height: 37px;
+    margin-top: 29px;
+}
+
+.main-column p {
+    display: flex;
+    width: 319px;
+    height: 248px;
+    flex-direction: column;
     flex-shrink: 0;
-    position: absolute;
+    margin-top: 20px;
+}
 
+.contacts {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contacts li {
 
 }
 
-.right-personal .right-item {
-    width: 240px;
-    margin: 0 50.5px;
-    
+.contacts li a {
+    color: #FFF;
+    font-family: Lora;
+    font-size: 28px;
+    display: flex;
+    width: 270px;
+    height: 33px;
+    flex-direction: column;
+    flex-shrink: 0;
+    margin-bottom: 8px;
+}
+
+.discord::before {
+    content: "";
+    position: relative;
+    float: left;
+    margin: 2px 5px 0 0;
+    width: 35px;
+    height: 29px;
+    background: url(assets/svg/8546766_discord_icon.svg);
+  }
+
+  .telegram::before {
+    content: "";
+    position: relative;
+    float: left;
+    margin: 2px 12px 0 0;
+    width: 28px;
+    height: 31px;
+    background: url(assets/svg/8547122_telegram_plane_icon.svg);
+  }
+
+  .mail::before {
+    content: "";
+    position: relative;
+    float: left;
+    margin: 2px 10px 0 0;
+    width: 29px;
+    height: 28px;
+    background: url(assets/svg/9004761_envelope_mail_email_message_icon.svg);
+  }
+
+.right {
+    width: 63.1%;
+    height: 1125px;
+    display: flex;
+    justify-content: right;
 }
 
 
