@@ -8,26 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <main class="wrapper">
         <header id="header">
+            <nav class="menu">
+                <ul class="menu-list">
+                    <li class="menu-item 1"><a href="#about">about</a></li>
+                    <li class="menu-item 2"><a href="#contacts">contacts</a></li>
+                    <li class="menu-item 3"><a href="#skills">skills</a></li>
+                    <li class="menu-item 4"><a href="#projects">projects</a></li>
+                    <li class="menu-item 5"><a href="#code">code</a></li>
+                </ul>
+            </nav>
             <div class="column">
                 <img src="assets/img/photo_2023-07-06_20-47-43.jpg" alt="MyPhoto">
             </div>
             <h1 class="header-name">nikita trybukhovski</h1>
-            <h3 class="header-subname">student</h3>
+            <h2 class="header-subname">student</h2>
         </header>
         <div class="container">
             <section class="left">
                 <div class="main-column">
-                    <h2>
+                    <h2 id="about">
                         about me
                     </h2>
                     <p>
                         I want to acquire practical and social skills, as well as help others, thereby consolidating my knowledge
                     </p>
-                    <h2 class="left-contacts">
+                    <h2 id="contacts" class="left-contacts">
                         contact me
                     </h2>
                     <ul class="contacts">
@@ -40,7 +52,7 @@
             <section class="right">
                 <div class="item-1">
                                 <div class="subitem">
-                                    <h2>skills</h2>
+                                    <h2 id="skills">skills</h2>
                                     <ul class="skills">
                                         <li>HTML5</li>
                                         <li>CSS3</li>
@@ -66,14 +78,14 @@
                     </p>
                 </div>
                 <div class="subitem">
-                    <h2>projects</h2>
+                    <h2 id="projects">projects</h2>
                     <p class="projects">
-                        This CV is my first project
+                       <a class="sublink" href="">This CV is my first project</a>
                     </p>
                 </div>
             </div>
             <div class="item-3">
-                <h2>code example</h2>
+                <h2 id="code">code example</h2>
                 <pre class="fn-example">
                     <code>function filter_list(l) {
                         return l.filter(fn => typeof fn === 'number');

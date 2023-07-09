@@ -1,8 +1,9 @@
 body {
 
     margin: 0 auto;
-    font-family: 'Lora', serif;
+    font-family: 'Lora', sans-serif;
     font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .wrapper {
@@ -12,6 +13,10 @@ body {
     opacity: 13,33%;
     margin: 0 auto;
     overflow: hidden;
+}
+
+a {
+    color: #FFF;
 }
 
 p {
@@ -65,6 +70,40 @@ h2.left-personal {
     left: 0;
 }
 
+.menu {
+    float: right;
+    position: relative;
+    width: 415px;
+    height: 43px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 27px 29px 0 0;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-item {
+    width: 79.4px;
+    height: 43px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-list li {
+    color: #FFF;
+    font-size: 14px;
+    /* font-weight: 700; */
+    letter-spacing: 0.21px;
+}
+
 .column {
     float: left;
     margin-left: 22px;
@@ -81,12 +120,12 @@ h2.left-personal {
     height: 300px;
     border-radius: 50%;
     margin-top: 56px;
-    border: 8px solid black;
+    border: 8px solid #222;
 }
 
 .header-name {
     float: right;
-    margin: 99px 180px 134px 53px;
+    margin: 32px 180px 0 0;
     width: 518px;
     height: 188px;
     color: #FFF;
@@ -270,6 +309,10 @@ h2.left-personal {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-top: 69px;
+}
+
+.sublink {
+    color: #FFF;
 }
 
 .item-2 .education {
