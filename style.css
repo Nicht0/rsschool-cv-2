@@ -296,6 +296,10 @@ h2.left-personal {
     margin: 20px 0 0 0;
 }
 
+.right-languages {
+    margin-right: 68px;
+}
+
 .languages {
     width: 272px;
     height: 203px;
